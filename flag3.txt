@@ -1,0 +1,4 @@
+FLAG3: flag_e70816d550708d130c9e7fc1f8f98f7c
+
+Received this flag after an actual successful attack
+in the live controlled environment.

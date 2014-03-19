@@ -1,0 +1,11 @@
+DNS Cache Poisoning attack against a resolver at 172.17.152.150 and DNS auth server at 172.17.152.149
+Trying to set the cache for whenry_49094902fea7938f.propaganda.hc to the ip address 172.17.152.149
+instead of 172.17.152.146
+
+The attack was successful in a contained environment of VM's on the UGA network
+
+DNS transaction id was unknown. Scapy is used for sppofing packets
+
+The attack is fully automated via script.sh since the cache TTL of a result from the resolver to authority
+server is 60 s. Upon successful poisoning, a HTTP get request is sent to the compromised server also
+located on 172.17.152.149
